@@ -19,6 +19,8 @@
 
     position: relative;
     overflow: hidden;
+    
+    box-shadow: 18px 60px 35px 0px rgba(34, 60, 80, 0.2);
 }
 
 .card * {
@@ -61,7 +63,7 @@
 
 .card:nth-child(3n+1) {
     /* background-color: rgb(53, 37, 197); */
-    background-image: linear-gradient(to left,#000, rgb(128, 125, 125));
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,162,223,1) 89%);
 }
 
 .card:nth-child(3n+2) {
